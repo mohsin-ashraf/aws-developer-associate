@@ -1,7 +1,7 @@
 This repository is dedicated to AWS developer associate program. Given below is the timeline and topics to cover. This timeline is can be chaged during the course as I will progress. The details of each topic will be appended as I will go through the course.
 
 
-## Udemy - AWS Certified Developer - Associate 2019
+## AWS Certified Developer - Associate
 
 **Day 1 | July 20 2020 | Monday**
 - **Introduction**
