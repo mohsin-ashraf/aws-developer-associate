@@ -70,3 +70,51 @@ This repository is dedicated to AWS developer associate program. Given below is 
 		- [Relevant White Paper](https://d0.awsstatic.com/whitepapers/Security/AWS_Security_Best_Practices.pdf)
 	- IAM Summary.
 
+**Day 3 | July 22 2020 | Wednesday**
+- **Beginners Guide to EC2 I**
+	- EC2 101
+		- Resizable compute capacity in the cloud
+			- Reduces the time required to obtain and boot new server instances to minutes.
+			- Scale the server in minutes up and down.
+			- No upfront payments no long term commitments. 
+		- On Demand instances.
+			- A fixed hourly rate (or even per second) with no commitment.
+		- Reserved instances.
+			- Provides you with a capacity reservation, and offer a significant discount on hourly charge for an instance
+				- 1 Year or 3 Years terms.
+		- Spot Instances.	
+			- Enables you to bid whatever price you want for instance capacity, providing for even greater savings if your application have flexible start and end times.
+			- For running a training job etc.
+			- Preferably use on weekends.
+			- If the spot instance gets terminated you won't get charged for the hour in which it got terminated.
+			- If you terminate the spot instance by yourself you will get charged for that whole hour.
+		- Dedicated Hosts.
+			- Physical EC2 instances dedicated for your use.
+			- Can be purchased as on demand.
+		- Families of EC2 instances.
+			- **F.I.G.H.T.D.R.M.C.P.X** are the available families.
+		- EBS (elastic block storage) volumes for disk.
+			- SSD
+				- General Purpose SSD.
+					- Balances price and performance for a wide variety of workloads.
+				- Provisioned IOPS SSD.
+					- Highest performance SSD volume for mission-critical workloads.
+			- Magnetic.
+				- Throughput Optimized HHD
+					- Low cost HHD volume designed for frequently accessed, throughput-intensive workloads.
+				- Cold HHD.
+					- Lowest cost HHD volume desgined for less frequently accessed workloads
+				- Magnetic.
+					- Previous Generation. Can be a boot volume.
+	- EC2 Lab
+		- Creating instance and SSH in the instance.
+		- Configuring the security role.
+		- Setting up a apache webserver.
+	- Elastic Load Balancer
+		- Helps us manage our load on multiple different servers.
+		- Applicatoin Load Balancer.
+			- Operates on OSI layer 7.
+			- Can make clever routing and rooting decisions.
+		- Network Load Balancer
+		- Classic Load Balancer
+
