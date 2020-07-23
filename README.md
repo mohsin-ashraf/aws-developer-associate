@@ -118,3 +118,18 @@ This repository is dedicated to AWS developer associate program. Given below is 
 		- Network Load Balancer
 		- Classic Load Balancer
 
+
+**Day 4 | July 23 2020 | Thursday**
+- **Beginners Guide to EC2 II**
+	- Route53 Lab
+		- AWS DNS Service
+		- Registering and Purchasing a domain name
+		- Creating Application Load Balancer
+			- Listeners are used for the ELBs to tell on which port the ELB will listen.
+	- CLI Demo
+		- AWS CLI Configuration.
+		- [AWS CLI Commands](https://awscli.amazonaws.com/v2/documentation/api/latest/index.html)
+	- EC2 with S3 Role Lab
+		- Applying role to EC2 for accessing S3 (without stoping it).
+
+
