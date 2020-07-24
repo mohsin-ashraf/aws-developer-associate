@@ -133,3 +133,28 @@ This repository is dedicated to AWS developer associate program. Given below is 
 		- Applying role to EC2 for accessing S3 (without stoping it).
 
 
+**Day 5 | July 24 2020 | Friday**
+- **Beginners Guide to EC2 III**
+	- RDS (Relational Database Service) 101
+		- SQL server, Oracle, MySQL Server, Postgres Server, Amazon Aurora, and MariaDB.
+		- Data Warehousing
+	- RDS Lab
+	- RDS Multi-AZ & Read Replicas
+		- Automated Backups.
+			- Can recover you database server at any point of time.
+			- It will take full daily snapshot and will also store transaction log throughout the day.
+			- When you do revercory, AWS will first choose the most recent snapshot of your database server, and then will apply the transaction logs.
+		- Database snapshots.
+			- You have to take the database snapshots manually.
+			- Can be available after deletion of the origianl instance unlike automated backups.
+		- Encryption.
+		- Read & Write backup.
+		- Multi-AZ
+			- Disaster recovery
+		- Read replica.
+			- Scaling out your database by reading from replicate database and primary database.
+	- Elasticache 101
+		- A web service that makes it easy to deploy, operate, and scale an in-memory cache in cloud.
+	- EC2 Summary 
+
+
